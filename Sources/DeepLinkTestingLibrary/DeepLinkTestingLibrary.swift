@@ -8,6 +8,10 @@ public protocol TestDynamicLinking {
 
 
 public class TestDynamicLinkingMain: TestDynamicLinking {
+    
+    public init() {
+        
+    }
     public func testDynamicLinking() -> String {
         return "TestDynamicLinkingMain"
     }
