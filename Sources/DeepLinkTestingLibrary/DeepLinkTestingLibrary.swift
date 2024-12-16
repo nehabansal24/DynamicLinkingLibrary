@@ -2,17 +2,10 @@
 // https://docs.swift.org/swift-book
 
 
-public protocol TestDynamicLinking {
-    func testDynamicLinking() -> String
-}
 
-
-public class TestDynamicLinkingMain: TestDynamicLinking {
+public class TestDynamicLinkingMain {
     
-    public init() {
-        
-    }
-    public func testDynamicLinking() -> String {
+    public static func testDynamicLinking() -> String {
         return "TestDynamicLinkingMain"
     }
 }
