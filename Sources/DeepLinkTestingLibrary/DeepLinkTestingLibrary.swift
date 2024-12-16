@@ -3,12 +3,12 @@
 
 
 public protocol TestDynamicLinking {
-    func testDynamicLinking()
+    func testDynamicLinking() -> String
 }
 
 
 public class TestDynamicLinkingMain: TestDynamicLinking {
-    public func testDynamicLinking() {
-        print("TestDynamicLinkingMain")
+    public func testDynamicLinking() -> String {
+        return "TestDynamicLinkingMain"
     }
 }
